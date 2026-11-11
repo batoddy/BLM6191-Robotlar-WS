@@ -1,0 +1,8 @@
+/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/src/low_level_autonomy/src/lidar_odom_map.cpp: In member function ‘void LIDAROdomMap::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)’:
+/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/src/low_level_autonomy/src/lidar_odom_map.cpp:10:75: warning: unused parameter ‘msg’ [-Wunused-parameter]
+   10 | void LIDAROdomMap::odom_callback(const nav_msgs::msg::Odometry::SharedPtr msg)
+      |                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/src/low_level_autonomy/src/lidar_odom_map.cpp: In member function ‘void LIDAROdomMap::lidar_map_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)’:
+/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/src/low_level_autonomy/src/lidar_odom_map.cpp:15:84: warning: unused parameter ‘msg’ [-Wunused-parameter]
+   15 | void LIDAROdomMap::lidar_map_callback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
+      |                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~

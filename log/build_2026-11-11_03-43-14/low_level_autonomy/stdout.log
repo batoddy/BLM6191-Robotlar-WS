@@ -1,0 +1,25 @@
+[ 50%] Built target vis_lidar_node
+[ 75%] [32mBuilding CXX object CMakeFiles/lidar_odom_map_node.dir/src/lidar_odom_map.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lidar_odom_map_node[0m
+[100%] Built target lidar_odom_map_node
+-- Install configuration: ""
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/vis_lidar_node
+-- Installing: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/lidar_odom_map_node
+-- Set non-toolchain portion of runtime path of "/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/lidar_odom_map_node" to ""
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy//launch
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy//launch/house.launch.py
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/package_run_dependencies/low_level_autonomy
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/parent_prefix_path/low_level_autonomy
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/ament_prefix_path.sh
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/path.sh
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/path.dsv
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.bash
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.sh
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.zsh
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.dsv
+-- Installing: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/package.dsv
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/packages/low_level_autonomy
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/cmake/low_level_autonomyConfig.cmake
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/cmake/low_level_autonomyConfig-version.cmake
+-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/package.xml

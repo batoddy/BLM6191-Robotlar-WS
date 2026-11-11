@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000503] (low_level_autonomy) JobQueued: {'identifier': 'low_level_autonomy', 'dependencies': OrderedDict()}
+[0.000573] (low_level_autonomy) JobStarted: {'identifier': 'low_level_autonomy'}
+[0.009849] (low_level_autonomy) JobProgress: {'identifier': 'low_level_autonomy', 'progress': 'cmake'}
+[0.012105] (low_level_autonomy) JobProgress: {'identifier': 'low_level_autonomy', 'progress': 'build'}
+[0.012212] (low_level_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy', '--', '-j16', '-l16'], 'cwd': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYTHONWARNINGS': 'ignore:::setuptools.command.easy_install,ignore:::setuptools.config.setupcfg', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'batoddy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/batoddy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2791', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'batoddy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'batoddy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/batoddy-OMEN-Slim-Gaming-Laptop-16-an0xxx:@/tmp/.ICE-unix/2747,unix/batoddy-OMEN-Slim-Gaming-Laptop-16-an0xxx:/tmp/.ICE-unix/2747', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ea1976b1_0d2d_4d6c_942b_865c867b21e2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099424] (-) TimerEvent: {}
+[0.125069] (low_level_autonomy) StdoutLine: {'line': b'[ 50%] Built target vis_lidar_node\n'}
+[0.137194] (low_level_autonomy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/lidar_odom_map_node.dir/src/lidar_odom_map.cpp.o\x1b[0m\n'}
+[0.199722] (-) TimerEvent: {}
+[0.300604] (-) TimerEvent: {}
+[0.401454] (-) TimerEvent: {}
+[0.502278] (-) TimerEvent: {}
+[0.603137] (-) TimerEvent: {}
+[0.703939] (-) TimerEvent: {}
+[0.804764] (-) TimerEvent: {}
+[0.905610] (-) TimerEvent: {}
+[1.006449] (-) TimerEvent: {}
+[1.107283] (-) TimerEvent: {}
+[1.208114] (-) TimerEvent: {}
+[1.308927] (-) TimerEvent: {}
+[1.409784] (-) TimerEvent: {}
+[1.510874] (-) TimerEvent: {}
+[1.611715] (-) TimerEvent: {}
+[1.712553] (-) TimerEvent: {}
+[1.813650] (-) TimerEvent: {}
+[1.914767] (-) TimerEvent: {}
+[2.016068] (-) TimerEvent: {}
+[2.116878] (-) TimerEvent: {}
+[2.217738] (-) TimerEvent: {}
+[2.318652] (-) TimerEvent: {}
+[2.419541] (-) TimerEvent: {}
+[2.520391] (-) TimerEvent: {}
+[2.621288] (-) TimerEvent: {}
+[2.722356] (-) TimerEvent: {}
+[2.823796] (-) TimerEvent: {}
+[2.924687] (-) TimerEvent: {}
+[3.025694] (-) TimerEvent: {}
+[3.126522] (-) TimerEvent: {}
+[3.227390] (-) TimerEvent: {}
+[3.328277] (-) TimerEvent: {}
+[3.429184] (-) TimerEvent: {}
+[3.530002] (-) TimerEvent: {}
+[3.630807] (-) TimerEvent: {}
+[3.731633] (-) TimerEvent: {}
+[3.832461] (-) TimerEvent: {}
+[3.933274] (-) TimerEvent: {}
+[4.034151] (-) TimerEvent: {}
+[4.134996] (-) TimerEvent: {}
+[4.235839] (-) TimerEvent: {}
+[4.336686] (-) TimerEvent: {}
+[4.437522] (-) TimerEvent: {}
+[4.538350] (-) TimerEvent: {}
+[4.639191] (-) TimerEvent: {}
+[4.739992] (-) TimerEvent: {}
+[4.840828] (-) TimerEvent: {}
+[4.941659] (-) TimerEvent: {}
+[5.042500] (-) TimerEvent: {}
+[5.143308] (-) TimerEvent: {}
+[5.244141] (-) TimerEvent: {}
+[5.344934] (-) TimerEvent: {}
+[5.445760] (-) TimerEvent: {}
+[5.546622] (-) TimerEvent: {}
+[5.647454] (-) TimerEvent: {}
+[5.748254] (-) TimerEvent: {}
+[5.849108] (-) TimerEvent: {}
+[5.949936] (-) TimerEvent: {}
+[6.050887] (-) TimerEvent: {}
+[6.151856] (-) TimerEvent: {}
+[6.252663] (-) TimerEvent: {}
+[6.353457] (-) TimerEvent: {}
+[6.454259] (-) TimerEvent: {}
+[6.555091] (-) TimerEvent: {}
+[6.655869] (-) TimerEvent: {}
+[6.756663] (-) TimerEvent: {}
+[6.857471] (-) TimerEvent: {}
+[6.958236] (-) TimerEvent: {}
+[7.059002] (-) TimerEvent: {}
+[7.159826] (-) TimerEvent: {}
+[7.260648] (-) TimerEvent: {}
+[7.361464] (-) TimerEvent: {}
+[7.462247] (-) TimerEvent: {}
+[7.563017] (-) TimerEvent: {}
+[7.663838] (-) TimerEvent: {}
+[7.764657] (-) TimerEvent: {}
+[7.865517] (-) TimerEvent: {}
+[7.967834] (-) TimerEvent: {}
+[8.068655] (-) TimerEvent: {}
+[8.169472] (-) TimerEvent: {}
+[8.270250] (-) TimerEvent: {}
+[8.371024] (-) TimerEvent: {}
+[8.471835] (-) TimerEvent: {}
+[8.572658] (-) TimerEvent: {}
+[8.673535] (-) TimerEvent: {}
+[8.774380] (-) TimerEvent: {}
+[8.875178] (-) TimerEvent: {}
+[8.975935] (-) TimerEvent: {}
+[9.076722] (-) TimerEvent: {}
+[9.177557] (-) TimerEvent: {}
+[9.278431] (-) TimerEvent: {}
+[9.379215] (-) TimerEvent: {}
+[9.480002] (-) TimerEvent: {}
+[9.580814] (-) TimerEvent: {}
+[9.681596] (-) TimerEvent: {}
+[9.782399] (-) TimerEvent: {}
+[9.883217] (-) TimerEvent: {}
+[9.983993] (-) TimerEvent: {}
+[10.084854] (-) TimerEvent: {}
+[10.185708] (-) TimerEvent: {}
+[10.286553] (-) TimerEvent: {}
+[10.387413] (-) TimerEvent: {}
+[10.394822] (low_level_autonomy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lidar_odom_map_node\x1b[0m\n'}
+[10.487684] (-) TimerEvent: {}
+[10.588545] (-) TimerEvent: {}
+[10.689372] (-) TimerEvent: {}
+[10.790183] (-) TimerEvent: {}
+[10.891002] (-) TimerEvent: {}
+[10.991830] (-) TimerEvent: {}
+[11.092679] (-) TimerEvent: {}
+[11.193534] (-) TimerEvent: {}
+[11.294380] (-) TimerEvent: {}
+[11.395218] (-) TimerEvent: {}
+[11.430617] (low_level_autonomy) StdoutLine: {'line': b'[100%] Built target lidar_odom_map_node\n'}
+[11.452868] (low_level_autonomy) CommandEnded: {'returncode': 0}
+[11.454091] (low_level_autonomy) JobProgress: {'identifier': 'low_level_autonomy', 'progress': 'install'}
+[11.470830] (low_level_autonomy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy'], 'cwd': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'PYTHONWARNINGS': 'ignore:::setuptools.command.easy_install,ignore:::setuptools.config.setupcfg', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'batoddy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/batoddy', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2791', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'batoddy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'batoddy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/batoddy-OMEN-Slim-Gaming-Laptop-16-an0xxx:@/tmp/.ICE-unix/2747,unix/batoddy-OMEN-Slim-Gaming-Laptop-16-an0xxx:/tmp/.ICE-unix/2747', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ea1976b1_0d2d_4d6c_942b_865c867b21e2', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib/python:/opt/ros/jazzy/opt/sdformat_vendor/lib/python:/opt/ros/jazzy/opt/gz_transport_vendor/lib/python:/opt/ros/jazzy/opt/gz_msgs_vendor/lib/python:/opt/ros/jazzy/opt/gz_math_vendor/lib/python:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.482375] (low_level_autonomy) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.483277] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/vis_lidar_node\n'}
+[11.483450] (low_level_autonomy) StdoutLine: {'line': b'-- Installing: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/lidar_odom_map_node\n'}
+[11.495298] (-) TimerEvent: {}
+[11.495678] (low_level_autonomy) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/lidar_odom_map_node" to ""\n'}
+[11.495996] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy//launch\n'}
+[11.496176] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy//launch/house.launch.py\n'}
+[11.496308] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/package_run_dependencies/low_level_autonomy\n'}
+[11.496434] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/parent_prefix_path/low_level_autonomy\n'}
+[11.496558] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/ament_prefix_path.sh\n'}
+[11.496682] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/ament_prefix_path.dsv\n'}
+[11.496882] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/path.sh\n'}
+[11.497024] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/path.dsv\n'}
+[11.497159] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.bash\n'}
+[11.497281] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.sh\n'}
+[11.497411] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.zsh\n'}
+[11.497545] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.dsv\n'}
+[11.497677] (low_level_autonomy) StdoutLine: {'line': b'-- Installing: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/package.dsv\n'}
+[11.497808] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/packages/low_level_autonomy\n'}
+[11.497937] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/cmake/low_level_autonomyConfig.cmake\n'}
+[11.498402] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/cmake/low_level_autonomyConfig-version.cmake\n'}
+[11.498802] (low_level_autonomy) StdoutLine: {'line': b'-- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/package.xml\n'}
+[11.499606] (low_level_autonomy) CommandEnded: {'returncode': 0}
+[11.529024] (low_level_autonomy) JobEnded: {'identifier': 'low_level_autonomy', 'rc': 0}
+[11.529997] (-) EventReactorShutdown: {}

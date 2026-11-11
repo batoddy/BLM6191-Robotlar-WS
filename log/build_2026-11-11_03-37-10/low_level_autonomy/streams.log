@@ -1,0 +1,29 @@
+[0.015s] Invoking command in '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy -- -j16 -l16
+[0.124s] [ 50%] Built target vis_lidar_node
+[0.137s] [ 75%] [32mBuilding CXX object CMakeFiles/lidar_odom_map_node.dir/src/lidar_odom_map.cpp.o[0m
+[10.359s] [100%] [32m[1mLinking CXX executable lidar_odom_map_node[0m
+[11.393s] [100%] Built target lidar_odom_map_node
+[11.416s] Invoked command in '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy -- -j16 -l16
+[11.437s] Invoking command in '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy
+[11.453s] -- Install configuration: ""
+[11.453s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/vis_lidar_node
+[11.453s] -- Installing: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/lidar_odom_map_node
+[11.469s] -- Set non-toolchain portion of runtime path of "/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/lib/low_level_autonomy/lidar_odom_map_node" to ""
+[11.469s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy//launch
+[11.470s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy//launch/house.launch.py
+[11.470s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/package_run_dependencies/low_level_autonomy
+[11.470s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/parent_prefix_path/low_level_autonomy
+[11.471s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/ament_prefix_path.sh
+[11.471s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/ament_prefix_path.dsv
+[11.471s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/path.sh
+[11.471s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/environment/path.dsv
+[11.471s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.bash
+[11.471s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.sh
+[11.471s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.zsh
+[11.471s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/local_setup.dsv
+[11.472s] -- Installing: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/package.dsv
+[11.472s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/ament_index/resource_index/packages/low_level_autonomy
+[11.472s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/cmake/low_level_autonomyConfig.cmake
+[11.472s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/cmake/low_level_autonomyConfig-version.cmake
+[11.472s] -- Up-to-date: /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/install/low_level_autonomy/share/low_level_autonomy/package.xml
+[11.474s] Invoked command in '/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy

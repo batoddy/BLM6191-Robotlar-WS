@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7b6c6b9481669f67b728.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "low_level_autonomy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_odom_map_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_odom_map_node-4a0f528ae70b5a3f04eb.json",
+					"name" : "lidar_odom_map_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "low_level_autonomy_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-low_level_autonomy_uninstall-45324ea042693e7c0d2f.json",
+					"name" : "low_level_autonomy_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ab880ac717cd8f4b143a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vis_lidar_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vis_lidar_node-57b7d55293bac55b27eb.json",
+					"name" : "vis_lidar_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/build/low_level_autonomy",
+		"source" : "/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/src/low_level_autonomy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

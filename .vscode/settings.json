@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/batoddy/ytu_ce/BLM6191-Robotlar-WS/src/low_level_autonomy",
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/build/low_level_autonomy/compile_commands.json"
+}
